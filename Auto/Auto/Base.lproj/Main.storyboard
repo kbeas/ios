@@ -104,7 +104,7 @@
         <!--Second-->
         <scene sceneID="wac-Qs-nqm">
             <objects>
-                <viewController title="Second" id="reM-4k-9A7" sceneMemberID="viewController">
+                <viewController title="Second" id="reM-4k-9A7" customClass="Vista2" customModule="Auto" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dHf-Mh-rhp"/>
                         <viewControllerLayoutGuide type="bottom" id="G85-oL-xBs"/>
@@ -140,7 +140,7 @@
         <!--Third-->
         <scene sceneID="clP-1Q-t3s">
             <objects>
-                <viewController title="Third" id="nRn-F9-0MA" sceneMemberID="viewController">
+                <viewController title="Third" id="nRn-F9-0MA" customClass="Vista3" customModule="Auto" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ISL-Oa-YI8"/>
                         <viewControllerLayoutGuide type="bottom" id="Sud-Qg-lEO"/>
@@ -170,7 +170,7 @@
         <image name="2015-Mercedes-Benz-S63-AMG-white-car_2560x1440.jpg" width="2560" height="1440"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="R0t-D1-i1C"/>
+        <segue reference="FL2-kd-YmM"/>
         <segue reference="p7G-uS-aQR"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A55C6C31F4275FE00124B59 /* Vista2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55C6C21F4275FE00124B59 /* Vista2.swift */; };
+		3A55C6C51F42769E00124B59 /* Vista3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55C6C41F42769E00124B59 /* Vista3.swift */; };
 		3AE469491F422EE8006CAAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE469481F422EE8006CAAAB /* AppDelegate.swift */; };
 		3AE4694B1F422EE8006CAAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4694A1F422EE8006CAAAB /* ViewController.swift */; };
 		3AE4694E1F422EE8006CAAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE4694C1F422EE8006CAAAB /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A55C6C21F4275FE00124B59 /* Vista2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vista2.swift; path = ../Vista2.swift; sourceTree = "<group>"; };
+		3A55C6C41F42769E00124B59 /* Vista3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vista3.swift; path = ../Vista3.swift; sourceTree = "<group>"; };
 		3AE469451F422EE8006CAAAB /* Auto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE469481F422EE8006CAAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AE4694A1F422EE8006CAAAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,8 +110,10 @@
 				3AE469481F422EE8006CAAAB /* AppDelegate.swift */,
 				3AE4694A1F422EE8006CAAAB /* ViewController.swift */,
 				3AE4694C1F422EE8006CAAAB /* Main.storyboard */,
+				3A55C6C21F4275FE00124B59 /* Vista2.swift */,
 				3AE4694F1F422EE8006CAAAB /* Assets.xcassets */,
 				3AE469511F422EE8006CAAAB /* LaunchScreen.storyboard */,
+				3A55C6C41F42769E00124B59 /* Vista3.swift */,
 				3AE469541F422EE8006CAAAB /* Info.plist */,
 			);
 			path = Auto;
@@ -279,7 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AE4694B1F422EE8006CAAAB /* ViewController.swift in Sources */,
+				3A55C6C51F42769E00124B59 /* Vista3.swift in Sources */,
 				3AE469491F422EE8006CAAAB /* AppDelegate.swift in Sources */,
+				3A55C6C31F4275FE00124B59 /* Vista2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +538,7 @@
 				3AE4696F1F422EE8006CAAAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AE469701F422EE8006CAAAB /* Build configuration list for PBXNativeTarget "AutoTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +547,7 @@
 				3AE469721F422EE8006CAAAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AE469731F422EE8006CAAAB /* Build configuration list for PBXNativeTarget "AutoUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +556,7 @@
 				3AE469751F422EE8006CAAAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
