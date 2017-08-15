@@ -11,15 +11,10 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var marca: UILabel!
-    @IBOutlet weak var color: UILabel!
     @IBOutlet weak var imagen: UIImageView!
     
     @IBAction func changeMarca(_ sender: Any) {
         marca.text = "Meche Benz"
-    }
-    
-    @IBAction func changeColor(_ sender: Any) {
-        color.textColor = UIColor.green
     }
     
     @IBAction func changeImagen(_ sender: Any) {

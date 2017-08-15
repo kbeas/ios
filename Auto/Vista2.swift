@@ -9,6 +9,13 @@
 import UIKit
 
 class Vista2: UIViewController {
+    
+    
+    @IBOutlet weak var color: UILabel!
+    
+    @IBAction func changeColor(_ sender: Any) {
+        color.textColor = UIColor.green
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
